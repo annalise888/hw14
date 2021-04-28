@@ -2,9 +2,9 @@ var http = require('http');
 var fs = require('fs');
 var qs = require('querystring');
 var port = process.env.PORT || 3000;
-const mongo = require('mongodb');
-const MongoClient = mongo.MongoClient;
-const url = "mongodb+srv://annalisejacobson:oGNS0R1U2lycAjhR@cluster0.hhdio.mongodb.net/companydb?retryWrites=true&w=majority";
+// const mongo = require('mongodb');
+// const MongoClient = mongo.MongoClient;
+// const url = "mongodb+srv://annalisejacobson:oGNS0R1U2lycAjhR@cluster0.hhdio.mongodb.net/companydb?retryWrites=true&w=majority";
 
 http.createServer(function (req, res) {
 	if (req.url == "/") {
@@ -22,7 +22,7 @@ http.createServer(function (req, res) {
 		});
 		req.on('end',()=> {
 			pdata = qs.parse(pdata);
-			
+			return;
 			MongoClient.connect(url,{useUnifiedTopology:true},function(err, db) {
 				if (err) {
 					console.log("Connection err: " + err);
