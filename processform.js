@@ -1,6 +1,7 @@
 var http = require('http');
 var fs = require('fs');
 var qs = require('querystring');
+var port = process.env.PORT || 3000;
 const mongo = require('mongodb');
 const MongoClient = mongo.MongoClient;
 const url = "mongodb+srv://annalisejacobson:oGNS0R1U2lycAjhR@cluster0.hhdio.mongodb.net/companydb?retryWrites=true&w=majority";
