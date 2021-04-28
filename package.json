@@ -2,9 +2,9 @@
   "name": "sample",
   "version": "1.0.0",
   "description": "my sample node app",
-  "main": "sample.js",
+  "main": "processform.js",
   "scripts": {
-  "start": "node sample.js"
+  "start": "node processform.js"
 },
   "repository": {
   "type": "git",
@@ -16,4 +16,4 @@
   "url": ""
 },
   "homepage": ""
-}// JSON Document
+}
