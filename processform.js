@@ -57,4 +57,4 @@ http.createServer(function (req, res) {
 		res.write("Unknown page request");
 		res.end();
 	}
-}).listen(8080);
+}).listen(port);
