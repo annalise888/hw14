@@ -4,7 +4,7 @@ var qs = require('querystring');
 var port = process.env.PORT || 3000;
 const mongo = require('mongodb');
 const MongoClient = mongo.MongoClient;
-const url = "mongodb+srv://annalisejacobson:oGNS0R1U2lycAjhR@cluster0.hhdio.mongodb.net/companydb?retryWrites=true&w=majority";
+const url = "mongodb+srv://annalisejacobson:iZofo0g3p8mGCQwa@cluster0.hhdio.mongodb.net/companydb?retryWrites=true&w=majority";
 
 http.createServer(function (req, res) {
 	if (req.url == "/") {
