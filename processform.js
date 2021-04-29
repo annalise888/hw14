@@ -4,7 +4,7 @@ var qs = require('querystring');
 var port = process.env.PORT || 3000;
 const mongo = require('mongodb');
 const MongoClient = mongo.MongoClient;
-const url = process.env.MONGODB_URL;
+const url = process.env.MONGODB_URI;
 
 
 http.createServer(function (req, res) {
