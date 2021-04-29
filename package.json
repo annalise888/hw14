@@ -4,7 +4,6 @@
   "description": "my sample node app",
   "main": "processform.js",
   "scripts": {
-  "start": "npm install mongodb --save"
   "start": "node processform.js"
 },
   "repository": {
