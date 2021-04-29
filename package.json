@@ -17,8 +17,5 @@
 },
   "dependencies": {
     "mongodb": "^3.6.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
   }
 }
